@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dog Caretaker Application Form</title>
+</head>
+<body>
+  <h2>Dog Caretaker Application Form</h2>
+  <form action="/submit-application" method="post">
+    
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label for="phone">Contact Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="days">Preferred Working Days:</label><br>
+    <input type="text" id="days" name="days" placeholder="e.g. Monday to Friday"><br><br>
+
+    <label for="hours">Available Hours:</label><br>
+    <input type="text" id="hours" name="hours" placeholder="e.g. 9 AM - 5 PM"><br><br>
+
+    <label for="experience">Years of Experience:</label><br>
+    <input type="number" id="experience" name="experience" min="0"><br><br>
+
+    <label for="pets">Types of Pets Handled Before:</label><br>
+    <input type="text" id="pets" name="pets" placeholder="e.g. Dogs, Cats, Birds"><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+
+    <label for="why">Why do you want to take care of my dog?</label><br>
+    <textarea id="why" name="why" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit Application">
+
+  </form>
+</body>
+</html>

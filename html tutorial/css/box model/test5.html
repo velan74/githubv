@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title >Cake Menu</title>
+  
+  <style>
+    body {
+  margin: 0;
+ 
+  background-color: aliceblue;
+  flex-wrap: wrap;
+}
+
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color:black;
+  margin-bottom: 30px;
+}
+
+.cake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.cake-item {
+  background-color:aquamarine;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cake-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cake-item h3 {
+  margin: 10px 0 0;
+  color: #8b005d;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Cake Menu</h1>
+    <div class="cake-grid">
+      <div class="cake-item">
+        <img src="https://th.bing.com/th/id/OIP.m1rumEWRx1McJbjCAzOcwQHaE8?w=233&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Strawberry Cake">
+        <h3>Strawberry Cake</h3>
+        <p>A cake is a sweet baked dessert, typically made from flour, sugar, eggs, and butter or oil.</p>
+      </div>
+      <div class="cake-item">
+        <img src="https://th.bing.com/th/id/OIP.4AcSlg3z19uGNft7hbcsmAHaEK?w=240&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Layer Cake">
+        <h3>Layer Cake</h3>
+        <p>Includes sponge cakes, chocolate cakes, cheesecakes, fruit cakes, and more.</p>
+      </div>
+      <div class="cake-item">
+        <img src="https://th.bing.com/th/id/OIP.--m30DlqEHqgqxy1C7BApQHaFj?w=267&h=200&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Chocolate Cake">
+        <h3>Chocolate Cake</h3>
+        <p>Can be fluffy, dense, moist, creamy, or layered depending on the recipe.</p>
+      </div>
+      <div class="cake-item">
+        <img src="https://th.bing.com/th/id/OIP.Z9ePncIoswLSOZeohyF8IQHaEo?w=302&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Apple Crunch">
+        <h3>Apple Crunch</h3>
+        <p>Can be fluffy, dense, moist, creamy, or layered depending on the recipe.</p>
+      </div>
+      <div class="cake-item">
+        <img src="https://th.bing.com/th/id/OIP.Las7fKZ0grErpuvXSp_IKAHaEO?w=292&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Blueberry Cake">
+        <h3>Blueberry Cake</h3>
+        <p>Popular flavors include vanilla, chocolate, strawberry, red velvet, and lemon.</p>
+      
+      </div>
+    </div>
+  </div>
+</body>
+</html>
